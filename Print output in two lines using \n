@@ -1,0 +1,7 @@
+# include <stdio.h>
+int main(){
+    char word1[]="Hello";
+    char word2[]="World";
+    printf("%s\n%s",word1,word2);
+    return 0;
+}
