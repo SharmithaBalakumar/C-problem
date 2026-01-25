@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+
+    int number1=5;
+
+    int number2=3;
+
+    printf("%d",number1!=number2);
+
+    return 0;
+
+}
