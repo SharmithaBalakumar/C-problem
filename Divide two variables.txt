@@ -1,0 +1,15 @@
+# include <stdio.h>
+
+int main(){
+
+    int div1=8;
+
+    int div2=2;
+
+    int divide=(div1/div2);
+
+    printf("%d",divide);
+
+    return 0;
+
+}
