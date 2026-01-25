@@ -1,0 +1,15 @@
+# include <stdio.h>
+
+int main(){
+
+    int multiple1=2;
+
+    int multiple2=10;
+
+    int multiple=(multiple1*multiple2);
+
+    printf("%d",multiple);
+
+    return 0;
+
+}
