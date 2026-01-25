@@ -1,0 +1,11 @@
+# include <stdio.h>
+
+int main(){
+
+    float number=8.25;
+
+    printf("%.2f",number);
+
+    return 0;
+
+}
