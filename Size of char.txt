@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(){
+
+    char size='S';
+
+    printf("%zu",sizeof(size));
+
+    return 0;
+
+}
