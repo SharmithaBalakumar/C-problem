@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+
+    int number1=5;
+
+    int number2=5;
+
+    int add=(number1+number2);
+
+    printf("%d",add);
+
+    return 0;
+
+}
