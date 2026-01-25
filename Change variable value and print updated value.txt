@@ -1,0 +1,15 @@
+# include <stdio.h>
+
+int main(){
+
+    int oldvalue=10;
+
+    int newvalue=20;
+
+    int updatedvalue=newvalue;
+
+    printf("%d",updatedvalue);
+
+    return 0;
+
+}
