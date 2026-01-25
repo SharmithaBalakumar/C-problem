@@ -1,0 +1,12 @@
+# include <stdio.h>
+
+int main(){
+
+    int size;
+
+    printf("%zu",sizeof(size));
+
+    return 0;
+
+
+}
