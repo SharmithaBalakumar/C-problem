@@ -1,0 +1,15 @@
+# include <stdio.h>
+
+int main(){
+
+    int add1=8;
+
+    int add2=7;
+
+    int add=(add1+add2);
+
+    printf("%d",add);
+
+    return 0;
+
+}
