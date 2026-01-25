@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+
+    int number1=5;
+
+    int number2=10;
+
+    printf("%d %d",number1&&number2,number1||number2);
+
+    return 0;
+
+}
