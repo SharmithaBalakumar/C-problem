@@ -1,0 +1,15 @@
+# include <stdio.h>
+
+int main(){
+
+    int sub1=15;
+
+    int sub2=10;
+
+    int sub=(sub1-sub2);
+
+    printf("%d",sub);
+
+    return 0;
+
+}
