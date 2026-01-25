@@ -1,0 +1,11 @@
+# include <stdio.h>
+
+int main(){
+
+    double number1=99.999;
+
+    printf("%.3f",number1);
+
+    return 0;
+
+}
