@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+
+    int number1=8;
+
+    int number2=3;
+
+    int multiply=(number1*number2);
+
+    printf("%d",multiply);
+
+    return 0;
+
+}
