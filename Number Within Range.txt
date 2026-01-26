@@ -1,0 +1,12 @@
+# include <stdio.h>
+int main(){
+    int number;
+    scanf("%d",&number);
+    if(number>=10&&number<=20){
+        printf("Number is within range");
+    }
+    else{
+        printf("Invalid");
+    }
+    return 0;
+}
