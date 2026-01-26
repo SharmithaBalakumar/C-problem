@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    int side1;
+    int side2;
+    int side3;
+    scanf("%d",&side1);
+    scanf("%d",&side2);
+    scanf("%d",&side3);
+    int totalsides=(side1+side2+side3);
+    if(totalsides==180){
+        printf("Sum of angles must be 180°.");
+    }
+    else{
+        printf("Invalid");
+    }
+    return 0;
+}
