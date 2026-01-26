@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    if(ch=='a'||ch=='A'){
+        printf("Vowels");
+    }
+    else if(ch=='e'||ch=='E'){
+        printf("Vowels");
+    }
+    else if(ch=='i'||ch=='I'){
+        printf("Vowels");
+    }
+    else if(ch=='o'||ch=='O'){
+        printf("Vowels");
+    }
+    else if(ch=='u'||ch=='U'){
+        printf("Vowels");
+    }
+    else{
+        printf("Consonants");
+        
+    }
+    return 0;
+}
