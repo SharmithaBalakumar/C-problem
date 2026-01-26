@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int value1;
+    int value2;
+    scanf("%d",&value1);
+    scanf("%d",&value2);
+    (value1<value2)?printf("%d is smallest",value1):printf("%d is smallest",value2);
+    return 0;
+}
