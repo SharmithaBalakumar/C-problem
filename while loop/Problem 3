@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main(){
+    int totaldata;
+    scanf("%d",&totaldata);
+    int days;
+    scanf("%d",&days);
+    int datausage;
+    int useddata;
+    int count=0;
+    while(totaldata>0&&count<days){
+        scanf("%d",&datausage);
+       
+        useddata=totaldata-datausage;
+        if(useddata>=0){
+            totaldata=useddata;
+            count++;
+            
+            
+        }
+        else{
+            totaldata=0;
+            useddata=0;
+        }
+        
+        
+    }
+    printf("Days used:%d\n",count);
+    printf("Remaining data:%d \n",useddata);
+    return 0;
+    
+}
