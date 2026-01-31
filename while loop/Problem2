@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+    int days;
+    scanf("%d",&days);
+    int intialbalance;
+    scanf("%d",&intialbalance);
+    int transaction;
+    int count=0;
+    int finalbalance=intialbalance;
+    while(days>0){
+        scanf("%d",&transaction);
+        finalbalance=finalbalance+transaction;
+        if(finalbalance<2000){
+          
+            count++;
+        }
+        days--;
+    }
+    printf("Final balance: %d \n",finalbalance);
+    printf("Low balance days: %d \n",count);
+    return 0;
+}
