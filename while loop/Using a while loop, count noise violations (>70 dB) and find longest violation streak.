@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main(){
+    int n1,n2;
+    int v=0;
+    int cs=0;
+    int ls=0;
+    scanf("%d",&n1);
+    int count=0;
+    while(n1>0){
+        scanf("%d",&n2);
+        if(n2>70){
+            v++;
+            cs++;
+        }
+        if(cs>ls){
+            ls=cs;
+        }
+        else{
+            cs=0;
+        }
+        n1--;
+
+    }
+    printf("Noise Violations:%d \n",v);
+    printf("Longest Violation Streak: %d \n",ls);
+    return 0;
+
+}
