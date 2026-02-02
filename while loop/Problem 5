@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main(){
+    int n1;
+    scanf("%d",&n1);
+    int n2;
+    int count1=0;
+    int count2=0;
+    while(n1>0){
+        scanf("%d",&n2);
+        if(n2==1){
+            count1++;
+        }
+        else if(n2==0){
+            count2++;
+        }
+        
+        
+        n1--;
+        
+        
+    }
+    printf("Successful orders:%d \n",count1);
+    printf("Cancelled orders:%d \n",count2);
+    if(count2>count1){
+        printf("Status:Risk");
+    }
+    else{
+        printf("Status:Safe");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
