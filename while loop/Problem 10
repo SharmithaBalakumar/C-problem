@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(){
+    int N;
+    scanf("%d",&N);
+    int n;
+    int count=0;
+    int i=0;
+    while(i<N){
+        scanf("%d",&n);
+        if(n==0){
+            count++;
+        
+        }
+        i++;
+    }
+    printf("Inactive Weeks:%d \n",count);
+    if(count>=3){
+        printf("High\n");
+        
+    }
+    else{
+         printf("Low");
+        
+    }
+    return 0;
+}
