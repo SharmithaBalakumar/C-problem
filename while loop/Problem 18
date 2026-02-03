@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+    int capacity;
+    scanf("%d",&capacity);
+    int N;
+    scanf("%d",&N);
+    int n;
+    int i=0;
+    int count1=0;
+    int count2=0;
+    while(i<N){
+        scanf("%d",&n);
+        if(n<capacity){
+            count1++;
+        }
+        if(n>capacity){
+            count2++;
+        }
+        i++;
+    }
+    printf("Safe Hours:%d \n",count1);
+    printf("Failure Count:%d \n",count2);
+    return 0;
+    
+}
