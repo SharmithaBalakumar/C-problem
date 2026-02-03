@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+    int maxcapacity;
+    scanf("%d",&maxcapacity);
+     int N;
+     scanf("%d",&N);
+     int n;
+     int i=0;
+     int sum=0;
+     int treated=0;
+     int rejected=0;
+     while(i<N){
+         scanf("%d",&n);
+         
+         if(sum<=maxcapacity&&(sum+n)<=maxcapacity){
+             sum=sum+n;
+            //  maxcapacity=sum;
+             treated=sum;
+         }
+         else{
+             rejected=rejected+n;
+         }
+         i++;
+     }
+     printf("Treated patients:%d \n",treated);
+     printf("Rejected patients:%d \n",rejected);
+     return 0;
+     
+    
+}
